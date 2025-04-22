@@ -85,6 +85,10 @@ ul {
     background-color: #4d7cfe;
 
 }
+.titulo-secao span{
+    color: #0077b5;
+}
+
 .grade-projetos {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -153,15 +157,26 @@ ul {
     margin-top: 20px;
     
 }
+.paragrafo{
+    background-color: rgba(77, 124, 245, 0.2);
+    text-align: center;
+    border-radius: 50px;
+    font-size: 20px;
+
+   
+    
+}
 
 .tag-habilidades {
     background-color: rgba(77, 124, 245, 0.2);
     color: #4d7cfe;
     padding: 8px 15px;
     border-radius: 20px;
-    margin-right: 10px;
+    margin-right: 20px;
     margin-bottom: 10px;
     font-size: 14px;
+    
+    
 }
 
 .botoes-contato{
