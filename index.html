@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfólio | Felipe Gomes</title>
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li>
+                <a>Home</a>
+            </li>
+
+            <li>
+                <a>Projetos</a>
+            </li>
+            <li>
+                <a>Sobre</a>
+            </li>
+            <li>
+                <a>Contato</a>
+            </li>
+
+        </ul>
+
+    </header>
+
+    <section class="principal">
+        <div>
+            <h1>Olá eu sou <span>Felipe Gomes.</span></h1>
+            <p>Desenvolvedor criativo focado em contruir experiência digitais excepcionais e interfaces intuitivas</p>
+            <a class="Botao efeito-cursor">Ver Projetos</a>
+        </div>
+
+    </section>
+
+    <section class="secao">
+        <h2 class="titulo-secao">Projetos</h2>
+
+        <div class="grade-projetos">
+            <div class="card-projeto">
+                <img class="img-projeto" src="./img/Captura de tela 2025-04-20 202812.png " alt="imagem-projeto">
+                <div class="info-projeto">
+                    <h3>Conversor de Moedas</h3>
+                    <p>um Conversorde moedas criado com HTML, CSS e javaSript. que permite fazer convesão das modas
+                        Dolas, Euros e Real</p>
+                    <a href="https://felipesilva6496.github.io/conversor--moeda/ ">Ver Projeto →</a>
+                </div>
+            </div>
+
+
+            <div class="card-projeto">
+                <img class="img-projeto" src="./img/Captura de tela 2025-04-20 204553.png " alt="image-projeto">
+                <div class="info-projeto">
+                    <h3>Burgueria</h3>
+                    <p>Burgueria criado com HTML, CSS e javaSript. que permite os clientes escolher os melhores
+                        hambugues</p>
+                    <a href="https://felipesilva6496.github.io/Projeto-Array/">Ver Projeto →</a>
+                </div>
+            </div>
+
+            <div class="card-projeto">
+                <img class="img-projeto" src="./img/Captura de tela 2025-04-20 204153.png " alt="image-projeto">
+                <div class="info-projeto">
+                    <h3>Caféteria F&K</h3>
+                    <p>um site de Caféteria criado com HTML e CSS. que permite fazer a escolha da melhor opção</p>
+                    <a href="https://felipesilva6496.github.io/DEV-CAF-/">Ver Projeto →</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="secao">
+        <h2 class="titulo-secao">Sobre Mim</h2>
+        <div class="sobre">
+            <img class="img-sobre" src="img/felipe.jpeg">
+
+            <div class="conteudo-sobre">
+            <h2>Desenvolverdor com paixão por criar soluções digitais</h2>
+            <p>
+              Sou um Desenvolvedor web  especializado em criar experiência digitais experiência. Com foco em design centradono usuário,
+              trabalho para construir aplicações web moderno e intuitivais.
+            </p>
+            <p>
+                Minha abordagem combina criatividade com funcionalidade, resultado em produzir digitais que são tanto bonitos quanto eficientes.
+            </p>
+       
+
+            <div class="habilidades">
+                <span class="tag-habilidades efeito-cursor">HTML5</span>
+                <span class="tag-habilidades efeito-cursor">CSS</span>
+               
+                <span class="tag-habilidades efeito-cursor">javaSript</span>
+                <span class="tag-habilidades efeito-cursor">REACT</span>
+
+            </div>
+        </div>
+
+        </div>
+
+    </section>
+    <section class="secao">
+        <h2 class="titulo-secao">Contato</h2>
+        <div class="botoes-contato">
+
+
+            <a href="https://wa.me/5581984513533" class="botao-contato whatsapp efeito-cursor"> <span>WhatsApp</span> </a>
+
+            <a href="mailto:felipekelly519@gmail.com" class="botao-contato email efeito-cursor">  <span>E-Mail</span> </a>
+
+            <a href="https://www.linkedin.com/in/felipe-g-da-silva/" class="botao-contato linkedin efeito-cursor">  <span>Linkedin</span> </a>
+
+            <a href="https://github.com/FelipeSilva6496" class="botao-contato github efeito-cursor">  <span>Github</span> </a>
+
+        </div>
+
+
+    </section>
+    <footer>
+        <p> Desenvolvido por Felipe Gomes</p>
+    </footer>
+<di class="cursor"></di>
+
+</body>
+
+<script>
+    const cursor = document.querySelector(".cursor")
+
+    document.addEventListener("mousemove",function(info){
+cursor.style.left = info.clientX + "px"
+cursor.style.top = info.clientY + "px"
+    })
+</script>
+
+</html>
+
